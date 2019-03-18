@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS dailymuniestimates;
 DROP DATABASE IF EXISTS ghosttrainsf;
 CREATE DATABASE ghosttrainsf;
 
