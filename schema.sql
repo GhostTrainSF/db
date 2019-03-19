@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS ghosttrainsf;
+DROP TABLE dailymuniestimates;
 CREATE DATABASE ghosttrainsf;
 
 \c ghosttrainsf;
 
 CREATE TABLE dailymuniestimates (
     id SERIAL PRIMARY KEY,
-    queryTime int,
+    queryTime bigint,
     firstEstimate int,
     secondEstimate int,
     thirdEstimate int,
